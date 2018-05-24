@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve">
+<style type="text/css">
+	.White{fill:#FFFFFF;}
+	.Yellow{fill:#FFB115;}
+	.Black{fill:#727272;}
+	.Green{fill:#039C23;}
+	.Red{fill:#D11C1C;}
+	.Blue{fill:#1177D7;}
+	.st0{opacity:0.75;}
+	.st1{opacity:0.25;}
+	.st2{opacity:0.5;}
+</style>
+<g id="ExcelFile">
+	<g>
+		<g class="st2">
+			<path class="Black" d="M62,34c-18.8,0-34-4.5-34-10v60c0,5.5,15.2,10,34,10s34-4.5,34-10V24C96,29.5,80.8,34,62,34z"/>
+		</g>
+		<g class="st1">
+			<ellipse class="Black" cx="62" cy="22" rx="34" ry="10"/>
+		</g>
+	</g>
+	<g class="st0">
+		<path class="Black" d="M115,116H55c-0.5,0-1-0.4-1-1V55c0-0.5,0.5-1,1-1h60c0.6,0,1,0.5,1,1v60C116,115.6,115.6,116,115,116z"/>
+	</g>
+	<rect x="55" y="55" class="White" width="60" height="60"/>
+  <path d="m67.120078,87.543113l9.811066,-9.410614" stroke-width="3" stroke="#7f7f7f"/>
+  <path d="m66.81974,85.741081l10.011291,9.61084" stroke-width="3" stroke="#7f7f7f"/>
+  <path d="m96.052711,78.332725l9.310502,9.110275" stroke-width="3" stroke="#7f7f7f"/>
+  <path d="m96.753502,94.951469l9.210389,-9.010162" stroke-width="3" stroke="#7f7f7f"/>
+  <path d="m89.745597,76.13024l-6.907791,22.825746" stroke-width="3" stroke="#7f7f7f"/>
+</g>
+</svg>
