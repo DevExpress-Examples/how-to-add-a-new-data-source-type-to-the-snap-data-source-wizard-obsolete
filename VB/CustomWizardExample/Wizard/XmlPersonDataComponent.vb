@@ -1,7 +1,6 @@
 ﻿Imports System.Xml.Linq
 Imports System.Collections.Generic
 Imports DevExpress.DataAccess
-Imports System.ComponentModel
 
 Namespace CustomWizardExample.Wizard
     Public Class XmlPersonDataComponent
@@ -16,7 +15,6 @@ Namespace CustomWizardExample.Wizard
 
 
         Private ReadOnly fileName_Renamed As String
-        Public Event Disposed As EventHandler Implements IComponent.Disposed
 
         Public Sub New(ByVal fileName As String)
             Me.fileName_Renamed = fileName
@@ -32,14 +30,6 @@ Namespace CustomWizardExample.Wizard
             Get
                 Return fileName_Renamed
             End Get
-        End Property
-        Public Property Site As ISite Implements IComponent.Site
-            Get
-                Throw New NotImplementedException()
-            End Get
-            Set(value As ISite)
-                Throw New NotImplementedException()
-            End Set
         End Property
 
         Public Sub Fill(ByVal sourceParameters As IEnumerable(Of DevExpress.Data.IParameter)) Implements IDataComponent.Fill
