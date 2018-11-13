@@ -1,6 +1,8 @@
 ﻿using System.Xml.Linq;
 using System.Collections.Generic;
 using DevExpress.DataAccess;
+using System;
+using System.ComponentModel;
 
 namespace CustomWizardExample.Wizard {
     public class XmlPersonDataComponent : List<Person>, IDataComponent {
@@ -12,6 +14,8 @@ namespace CustomWizardExample.Wizard {
 
         readonly string fileName;
 
+        public event EventHandler Disposed;
+
         public XmlPersonDataComponent(string fileName) {
             this.fileName = fileName;
         }
@@ -19,6 +23,8 @@ namespace CustomWizardExample.Wizard {
         public string Name { get; set; }
         public string DataMember { get { return string.Empty; } }
         public string FileName { get { return fileName; } }
+
+        public ISite Site { get; set ; }
 
         public void Fill(IEnumerable<DevExpress.Data.IParameter> sourceParameters) {
             var root = XDocument.Load(this.fileName).Root;
@@ -58,7 +64,10 @@ namespace CustomWizardExample.Wizard {
         public void Dispose() {
             Dispose(true);
         }
-        protected virtual void Dispose(bool disposing) {
+        protected virtual void Dispose(bool disposing)
+        {
+            if (this.Disposed != null)
+                this.Disposed.Invoke(this, EventArgs.Empty);
             //do nothing
         }
     }
