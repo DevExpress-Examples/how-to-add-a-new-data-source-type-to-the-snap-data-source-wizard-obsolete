@@ -1,3 +1,18 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/CustomWizardExample/Form1.cs) (VB: [Form1.vb](./VB/CustomWizardExample/Form1.vb))
+* [Person.cs](./CS/CustomWizardExample/Person.cs) (VB: [Person.vb](./VB/CustomWizardExample/Person.vb))
+* [CustomDataSourceCreationService.cs](./CS/CustomWizardExample/Wizard/CustomDataSourceCreationService.cs) (VB: [CustomDataSourceCreationService.vb](./VB/CustomWizardExample/Wizard/CustomDataSourceCreationService.vb))
+* [DataSourceWizardCustomizationService.cs](./CS/CustomWizardExample/Wizard/DataSourceWizardCustomizationService.cs) (VB: [DataSourceWizardCustomizationService.vb](./VB/CustomWizardExample/Wizard/DataSourceWizardCustomizationService.vb))
+* [ChoosePersonsPage.cs](./CS/CustomWizardExample/Wizard/Presenters/ChoosePersonsPage.cs) (VB: [ChoosePersonsPage.vb](./VB/CustomWizardExample/Wizard/Presenters/ChoosePersonsPage.vb))
+* [CustomChooseDataSourceNamePage.cs](./CS/CustomWizardExample/Wizard/Presenters/CustomChooseDataSourceNamePage.cs) (VB: [CustomChooseDataSourceNamePage.vb](./VB/CustomWizardExample/Wizard/Presenters/CustomChooseDataSourceNamePage.vb))
+* [CustomChooseDataSourceTypePage.cs](./CS/CustomWizardExample/Wizard/Presenters/CustomChooseDataSourceTypePage.cs) (VB: [CustomChooseDataSourceTypePage.vb](./VB/CustomWizardExample/Wizard/Presenters/CustomChooseDataSourceTypePage.vb))
+* [ChoosePersonsPageView.cs](./CS/CustomWizardExample/Wizard/Views/ChoosePersonsPageView.cs) (VB: [ChoosePersonsPageView.vb](./VB/CustomWizardExample/Wizard/Views/ChoosePersonsPageView.vb))
+* [CustomChooseDataSourceTypePageView.cs](./CS/CustomWizardExample/Wizard/Views/CustomChooseDataSourceTypePageView.cs) (VB: [CustomChooseDataSourceTypePageView.vb](./VB/CustomWizardExample/Wizard/Views/CustomChooseDataSourceTypePageView.vb))
+* [IChoosePersonsPageView.cs](./CS/CustomWizardExample/Wizard/Views/IChoosePersonsPageView.cs) (VB: [IChoosePersonsPageView.vb](./VB/CustomWizardExample/Wizard/Views/IChoosePersonsPageView.vb))
+* [XmlPersonDataComponent.cs](./CS/CustomWizardExample/Wizard/XmlPersonDataComponent.cs) (VB: [XmlPersonDataComponent.vb](./VB/CustomWizardExample/Wizard/XmlPersonDataComponent.vb))
+<!-- default file list end -->
 # How to add a new data source type to the Data Source Wizard
 
 
